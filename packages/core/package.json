@@ -22,5 +22,6 @@
   "dependencies": {
     "@huobi-dev/utils": "^1.0.1",
     "imooc-test-wuwx": "^1.0.1"
-  }
+  },
+  "gitHead": "180096ceade0bb56c988f1835b918573dfe05224"
 }
