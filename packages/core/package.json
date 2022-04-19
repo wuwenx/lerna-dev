@@ -1,6 +1,6 @@
 {
   "name": "@huobi-dev/core",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "core",
   "author": "wuwenxiang < ferrair@global-hgroup.com>",
   "homepage": "",
@@ -26,5 +26,5 @@
     "@huobi-dev/utils": "^1.0.2",
     "imooc-test-wuwx": "^1.0.1"
   },
-  "gitHead": "97240b5ae911fa89512ebd073dacc2eb1d90b55d"
+  "gitHead": "e14ea16725754fa589105fc9fe429b678e630ba4"
 }
