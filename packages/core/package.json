@@ -1,13 +1,13 @@
 {
   "name": "@huobi-dev/core",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "core",
   "author": "wuwenxiang < ferrair@global-hgroup.com>",
   "homepage": "",
   "license": "ISC",
   "main": "lib/index.js",
-  "bin":{
- "huobi-dev-core":"bin/index.js"
+  "bin": {
+    "huobi-dev-core": "bin/index.js"
   },
   "directories": {
     "lib": "lib",
