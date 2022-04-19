@@ -1,6 +1,6 @@
 {
   "name": "@huobi-dev/core",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "core",
   "author": "wuwenxiang < ferrair@global-hgroup.com>",
   "homepage": "",
@@ -23,7 +23,7 @@
     "test": "echo \"Error: run tests from core\""
   },
   "dependencies": {
-    "@huobi-dev/utils": "^1.0.2",
+    "@huobi-dev/utils": "^1.0.5",
     "imooc-test-wuwx": "^1.0.1"
   },
   "gitHead": "e14ea16725754fa589105fc9fe429b678e630ba4"
