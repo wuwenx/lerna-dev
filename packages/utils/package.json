@@ -17,7 +17,7 @@
     "registry": "https://registry.npm.org/"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from utils\""
+    "test": "echo \"Error: run tests from utils \""
   },
-  "gitHead": "677cf8521af60f74202fad9a15a74ec082f58a1d"
+  "gitHead": "a9ee3378a2306c3b48c5478c08207482798a69f4"
 }
