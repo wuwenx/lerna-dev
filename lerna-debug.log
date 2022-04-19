@@ -6,11 +6,11 @@
 0 silly argv }
 1 notice cli v4.0.0
 2 verbose rootPath /Users/wuwenxiang/wuwx/learn-cli/learn-dev
-3 verbose session 2886720a2d1493ee
+3 verbose session b46e11bdd213e6c5
 4 verbose user-agent lerna/4.0.0/node@v12.12.0+x64 (darwin)
 5 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '4.0.0' }
 6 verbose rootPath /Users/wuwenxiang/wuwx/learn-cli/learn-dev
-7 info current version 1.0.6
+7 info current version 1.0.7
 8 silly isAnythingCommitted
 9 verbose isAnythingCommitted 1
 10 silly getCurrentBranch
@@ -20,8 +20,8 @@
 14 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
 15 silly hasTags
 16 verbose hasTags true
-17 silly git-describe.sync "v1.0.6-1-g6c2979f" => {"lastTagName":"v1.0.6","lastVersion":"v1.0.6","refCount":"1","sha":"6c2979f","isDirty":false}
-18 info Looking for changed packages since v1.0.6
+17 silly git-describe.sync "v1.0.7-1-gb26de9f" => {"lastTagName":"v1.0.7","lastVersion":"v1.0.7","refCount":"1","sha":"b26de9f","isDirty":false}
+18 info Looking for changed packages since v1.0.7
 19 silly checking diff packages/core
 20 silly found diff in packages/core/package.json
 21 verbose filtered diff [ 'packages/core/package.json' ]
@@ -30,8 +30,8 @@
 24 verbose filtered diff [ 'packages/utils/package.json' ]
 25 verbose updated @huobi-dev/core
 26 verbose updated @huobi-dev/utils
-27 verbose git-describe undefined => "v1.0.6-1-g6c2979f"
-28 silly git-describe parsed => {"lastTagName":"v1.0.6","lastVersion":"v1.0.6","refCount":"1","sha":"6c2979f","isDirty":false}
+27 verbose git-describe undefined => "v1.0.7-1-gb26de9f"
+28 silly git-describe parsed => {"lastTagName":"v1.0.7","lastVersion":"v1.0.7","refCount":"1","sha":"b26de9f","isDirty":false}
 29 info execute Skipping releases
 30 silly lifecycle No script for "preversion" in "learn-dev", continuing
 31 silly lifecycle No script for "preversion" in "@huobi-dev/utils", continuing
@@ -46,10 +46,10 @@
 36 silly gitAdd   'packages/core/package-lock.json',
 36 silly gitAdd   'lerna.json'
 36 silly gitAdd ]
-37 silly gitCommit v1.0.7
-38 verbose git [ 'commit', '-m', 'v1.0.7' ]
-39 silly gitTag v1.0.7
-40 verbose git [ 'tag', 'v1.0.7', '-m', 'v1.0.7' ]
+37 silly gitCommit v1.0.8
+38 verbose git [ 'commit', '-m', 'v1.0.8' ]
+39 silly gitTag v1.0.8
+40 verbose git [ 'tag', 'v1.0.8', '-m', 'v1.0.8' ]
 41 silly lifecycle No script for "postversion" in "@huobi-dev/core", continuing
 42 silly lifecycle No script for "postversion" in "@huobi-dev/utils", continuing
 43 silly lifecycle No script for "postversion" in "learn-dev", continuing
@@ -58,18 +58,18 @@
 46 info publish Publishing packages to npm...
 47 info Verifying npm credentials
 48 verbose Retrieving npm user profile
-49 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 7240ms
+49 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 1912ms
 50 silly npm profile get received {"tfa":false,"name":"wuwenxiang","email":"15718811718@163.com","email_verified":true,"created":"2022-04-15T13:29:49.238Z","updated":"2022-04-15T13:29:49.235Z","cidr_whitelist":null}
 51 silly get npm username received {"username":"wuwenxiang","tfa":false,"name":"wuwenxiang","email":"15718811718@163.com","email_verified":true,"created":"2022-04-15T13:29:49.238Z","updated":"2022-04-15T13:29:49.235Z","cidr_whitelist":null}
 52 silly verifyNpmPackageAccess
-53 http fetch GET 200 https://registry.npmjs.org/-/org/wuwenxiang/package?format=cli 12731ms (cache updated)
+53 http fetch GET 200 https://registry.npmjs.org/-/org/wuwenxiang/package?format=cli 3181ms (cache updated)
 54 info Checking two-factor auth mode
 55 verbose Retrieving npm user profile
-56 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 1840ms
+56 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 1451ms
 57 silly npm profile get received {"tfa":false,"name":"wuwenxiang","email":"15718811718@163.com","email_verified":true,"created":"2022-04-15T13:29:49.238Z","updated":"2022-04-15T13:29:49.235Z","cidr_whitelist":null}
 58 silly 2FA false
 59 silly getCurrentSHA
-60 verbose getCurrentSHA 1e65edee87da44b50bc4d74e018e10ff3a14ee5f
+60 verbose getCurrentSHA 677cf8521af60f74202fad9a15a74ec082f58a1d
 61 silly lifecycle No script for "prepublish" in "learn-dev", continuing
 62 silly lifecycle No script for "prepare" in "learn-dev", continuing
 63 silly lifecycle No script for "prepublishOnly" in "learn-dev", continuing
