@@ -14,10 +14,10 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npm.taobao.org/"
+    "registry": "https://registry.npm.org/"
   },
   "scripts": {
     "test": "echo \"Error: run tests from utils\""
   },
-  "gitHead": "09989cf7e068baf02dfab0bddc76d666233b324e"
+  "gitHead": "7c4b3fc4d2513405a454086e16eedb488be0f9b3"
 }
