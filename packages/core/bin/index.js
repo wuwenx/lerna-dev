@@ -1,2 +1,2 @@
 #! /usr/local/bin/env node
-console.log ("core")
+console.log ("core1")
